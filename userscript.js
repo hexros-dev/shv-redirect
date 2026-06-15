@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name         Auto Redirect SacHiepVien Link
-// @namespace    https://hexros.qzz.io
-// @version      1.1
-// @match        https://sachiepvien.net/redirect.html*
-// @run-at       document-start
-// @grant        none
+// @name            Auto Redirect SacHiepVien Link
+// @namespace       https://hexros.qzz.io
+// @version         1.1
+// @match           https://sachiepvien.net/redirect.html*
+// @run-at          document-start
+// @grant           none
+// @author          Hexros Raymond
+// @downloadURL     https://raw.githubusercontent.com/hexros-dev/shv-redirect/refs/heads/master/userscript.js?token=GHSAT0AAAAAAD6RQUQGNDWNAA2T6IKSBWCC2RPY7HA
 // ==/UserScript==
 
 (function () {
