@@ -14,9 +14,9 @@
   <img src="https://img.shields.io/github/v/release/hexros-dev/shv-redirect?style=for-the-badge&logo=github" alt="Latest Release">
 </a>
 
-<a href="https://github.com/hexros-dev/shv-redirect/blob/master/LICENSE">
+<!-- <a href="https://github.com/hexros-dev/shv-redirect/blob/master/LICENSE">
   <img src="https://img.shields.io/github/license/hexros-dev/shv-redirect?style=for-the-badge" alt="License">
-</a>
+</a> -->
 
 <a href="https://github.com/hexros-dev/shv-redirect/stargazers">
   <img src="https://img.shields.io/github/stars/hexros-dev/shv-redirect?style=for-the-badge" alt="Stars">
