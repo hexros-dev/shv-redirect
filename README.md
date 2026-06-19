@@ -11,7 +11,7 @@
 <p>
 
 <a href="https://github.com/hexros-dev/shv-redirect/tags">
-  <img src="https://img.shields.io/github/v/tag/hexros-dev/shv-redirect?sort=semver&style=for-the-badge&logo=github" alt="Version">
+  <img src="https://img.shields.io/github/v/tag/hexros-dev/shv-redirect?sort=semver&style=for-the-badge&logo=github&latest" alt="Version">
 </a>
 
 <a href="https://github.com/hexros-dev/shv-redirect/blob/master/LICENSE">
