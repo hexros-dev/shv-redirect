@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Auto Redirect SacHiepVien Link
 // @namespace       https://hexros.qzz.io
-// @version         1.6
+// @version         1.7
 // @match           https://sachiepvien.net/redirect.html*
 // @run-at          document-body
 // @grant           GM_xmlhttpRequest

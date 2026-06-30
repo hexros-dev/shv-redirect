@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Auto Redirect SacHiepVien Link
 // @namespace       https://hexros.qzz.io
-// @version         1.6
+// @version         1.7
 // @match           https://sachiepvien.net/redirect.html*
 // @run-at          document-body
 // @grant           GM_xmlhttpRequest
@@ -37,7 +37,7 @@
             }
         });
     }
-    
+
     function tryRedirect() {
         const link = document.getElementById("redirectLink");
         if (!link?.href) {
@@ -59,19 +59,29 @@
             return false;
         }
     }
-    
-    if (tryRedirect()) {
-        return;
-    }
-    
-    const observer = new MutationObserver(() => {
-        if (tryRedirect()) {
-            observer.disconnect();
+
+
+    const CHECK_INTERVAL = 500;
+    const endTime = Date.now() + 10000;
+
+    const timer = setInterval(() => {
+        if (tryRedirect() || Date.now() >= endTime) {
+            clearInterval(timer);
         }
-    });
-    
-    observer.observe(document.documentElement, {
-        childList: true,
-        subtree: true
-    });
+    }, CHECK_INTERVAL);
+
+    // if (tryRedirect()) {
+    //     return;
+    // }
+
+    // const observer = new MutationObserver(() => {
+    //     if (tryRedirect()) {
+    //         observer.disconnect();
+    //     }
+    // });
+
+    // observer.observe(document.documentElement, {
+    //     childList: true,
+    //     subtree: true
+    // });
 })();
